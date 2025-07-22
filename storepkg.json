@@ -1,0 +1,21 @@
+{
+    "pkgver": 1,
+    "type": "plugin",
+    "name": "prxshot",
+    "author": "codestation",
+    "description": "Screenshot plugin for PSP\nsupporting per game folders and instant shot.",
+    "link": "https://github.com/codestation/prxshot",
+    "version": "0.4",
+    "download": {
+        "remote": "github:StoreStation/prxshotPkg/releases/latest/download/prxshot.zip",
+        "compressed": true,
+        "targets": [
+            { "file": "prxshot.prx", "target": "ms0:/SEPLUGINS/prxshot.prx" }
+        ],
+        "register": [
+            "vsh, ms0:/SEPLUGINS/prxshot.prx, on",
+            "game, ms0:/SEPLUGINS/prxshot.prx, on",
+            "pops, ms0:/SEPLUGINS/prxshot.prx, on"
+        ]
+    }
+}
