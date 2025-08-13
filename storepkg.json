@@ -7,8 +7,8 @@
     "link": "https://github.com/codestation/prxshot",
     "version": "0.4",
     "download": {
-        "remote": "github:StoreStation/prxshotPkg/releases/latest/download/prxshot.zip",
-        "compressed": true,
+        "remote": "github:StoreStation/prxshotPkg/releases/latest/download/prxshot.prx",
+        "compressed": false,
         "targets": [
             { "file": "prxshot.prx", "target": "ms0:/SEPLUGINS/prxshot.prx" }
         ],
